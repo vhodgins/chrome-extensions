@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "WS Rhymer",
+  "description": "This extension replaces everything you say with its rhymes",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches" : [
+        "<all_urls>"
+      ],
+      "js" : ["popup.js"]
+    }
+  ]
+
+
+}
